@@ -6,7 +6,7 @@
 
 first_number = int(input('Введите первое число\n'))
 second_number = int(input('Введите второе число\n')) 
-if second_number*2 == first_number:
+if second_number**2 == first_number:
     print('Второе чило является квадратным корнем первого числа')
 else: 
     print('Второе чило не является квадратным корнем первого числа')
