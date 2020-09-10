@@ -10,14 +10,11 @@
 Пример:
 ввод - Мама, м, т
 вывод - Мата
+upper()
 ''' 
 
 word = input('Введите слово\n')
 word_1 = input('Символ-1\n')
 word_2 = input('Символ-2\n')
-s = word.replace(word_1, word_2)
+s = (word.lower()).replace(word_1, word_2)
 print(s)
-
-
-
-
