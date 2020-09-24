@@ -6,5 +6,5 @@
 вывод - Привет, Дима!
 ''' 
 
-name =input('Введите имя\n')
-print('Привет, ' + name.capitalize() + ('!'))
+def name(name):
+    return ('Привет, ' + name.capitalize() + ('!'))

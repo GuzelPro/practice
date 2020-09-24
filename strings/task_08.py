@@ -8,8 +8,7 @@
 
 ''' 
 
-sentence = input('Введите предложение\n')
-s = sentence.split()
-new_sentence =  ' '.join(s)
-print(new_sentence)
-
+def sentence(sentence):
+    s = sentence.split()
+    new_sentence = ''.join(s)
+return new_sentence

@@ -15,11 +15,11 @@
 5.Сравниваем длинну слов
 ''' 
 
-word_1 = input('Введите слово\n')
-word_2 = input('Введите второе слово\n')
-if len(word_1) > len(word_2):
-    print(word_1, len(word_1), len(word_1) - len(word_2))
-elif len(word_1) < len(word_2):
-    print(word_2, len(word_2), len(word_2) - len(word_1))
-else:
-    print('длина слов одинакова')
+    
+def words(word_1, word_2):
+    if len(word_1) > len(word_2):
+        return word_1, len(word_1), len(word_1) - len(word_2)
+    elif len(word_1) < len(word_2):
+        return word_2, len(word_2), len(word_2) - len(word_1)
+    else:
+        return 'длина слов одинакова'

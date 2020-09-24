@@ -6,5 +6,5 @@
 
 ''' 
 
-word = input('Введите слово\n')
-print(word[::-1])
+def word(word):
+return word[::-1]

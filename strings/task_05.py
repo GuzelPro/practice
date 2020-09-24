@@ -13,12 +13,9 @@
 вывод - 1
 ''' 
 
-letter_1 = input('Введите слово\n')
-letter_2 = input('Введите символ\n')
-s = 0
-for i in letter_1.lower():
-    if i == letter_2:
-        s+=1
-print(s)
-
-
+def letter(letter_1, letter_2):
+    s = 0
+        for i in letter_1.lower():
+            if i == letter_2:
+                s+=1
+return s 

@@ -7,7 +7,7 @@
 
 ''' 
 
-sentence = input('Введите предложение\n')
-upper = sentence.upper()
-lower = sentence.lower()
-print(upper + ',' + lower)
+def sentence(sentence):
+    upper = sentence.upper()
+    lower = sentence.lower()
+return upper, lower

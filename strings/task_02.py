@@ -9,8 +9,8 @@
 
 ''' 
 
-word = input('Введите 3 слова\n')
-print(word.replace(',', ' и'))
+def word(word):
+return word.replace(',', ' и')
 
 
 

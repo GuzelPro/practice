@@ -9,9 +9,8 @@
 
 ''' 
 
-sentence = input('Введите предложение\n')
-word = input('Введите слово для поиска\n')
-if word in sentence.lower():
-    print('Слово есть')
-else:
-    print('Слова нет')
+def sentence(sentence, word):
+    if word in sentence.lower():
+        return 'Слово есть'
+    else:
+        return 'Слова нет'
