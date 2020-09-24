@@ -5,12 +5,6 @@
 Пример:
 ввод - ананас, а
 вывод - 3
-
-ЗАМЕЧАНИЕ:
-не заменяет, если в слове символ для подсчета - большая буква
-Пример:заююююш 
-ввод - Папа, п
-вывод - 1
 ''' 
 
 def letter(letter_1, letter_2):
@@ -18,4 +12,5 @@ def letter(letter_1, letter_2):
         for i in letter_1.lower():
             if i == letter_2:
                 s+=1
-return s 
+    return s
+
