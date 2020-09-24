@@ -3,7 +3,6 @@
 Вывести в консоль площадь квадрата.
 '''
 
-
-second_number = int(input('Введите сторону квадрата\n'))
-area = second_number**2 
-print('Площадь квадрата равна ' + str(area))
+def square(second_number):
+    area = second_number**2
+return 'Площадь квадрата равна ' + str(area)

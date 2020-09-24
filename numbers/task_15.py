@@ -10,9 +10,9 @@
 
 ''' 
 
-
-number = input('Введите число \n')
-sum = 0
+def number(number):
+    sum = 0
 for i in number:
     sum = sum + int(i)
-print(sum)
+return sum
+    

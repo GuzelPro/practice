@@ -3,13 +3,8 @@
  является ли данное число четным.
 '''
 
-
-
-first_number = int(input('Введите число\n'))
-if first_number%2 == 0:
-    print('Число четное')
-else:
-    print('Число не четное')
-
-
- 
+ def number(first_number):
+    if first_number%2 == 0:
+        return('Число четное')
+    else:
+        return('Число не четное')

@@ -1,5 +1,5 @@
 '''
-ПЕРЕДЕЛАТЬ
+
 С клавиатуры вводят три числа. 
 Определить и вывести в консоль, могут ли данные числа
  являться длинами сторон треугольника.
@@ -13,14 +13,11 @@
 
 '''
 
-second_number = int(input('Введите первое число\n'))
-first_number = int(input('Введите второе число\n'))
-third_number = int(input('Введите третье число\n'))
-if second_number + first_number > third_number:
-    print('Числа являются сторонами треугольника')
-elif first_number + third_number > second_number:
-    print('Числа являются сторонами треугольника')
-elif second_number + third_number > first_number:
-    print('Числа являются сторонами треугольника')
-else:
-    print('Числа не являются сторонами треугольника')
+
+def triangle(second_number, first_number, third_number):
+    if second_number + first_number > third_number:
+        return 'Числа являются сторонами треугольника'
+    elif first_number + third_number > second_number:
+        return 'Числа являются сторонами треугольника'
+    else:
+        return 'Числа не являются сторонами треугольника'

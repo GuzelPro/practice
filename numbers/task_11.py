@@ -10,11 +10,9 @@
 3)Сравниваем сумму 1 и 2  числа 2 и 3 числа 1 и 3 числа
 
 '''
-
-second_number = int(input('Введите первое число\n'))
-first_number = int(input('Введите второе число\n'))
-third_number = int(input('Введите третье число, гипотенуза\n'))
-if(second_number**2) + (first_number**2) == (third_number**2):
-    print('Могут являться сторонами прямоугольного треугольника')
-else:
-    print ('Не могут являться сторонами прямоугольного треугольника')
+  
+def number(int(second_number, first_number, third_number)):
+    if(second_number**2) + (first_number**2) == (third_number**2):
+        return 'Могут являться сторонами прямоугольного треугольника'
+    else:
+        return 'Не могут являться сторонами прямоугольного треугольника'

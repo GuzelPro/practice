@@ -5,16 +5,17 @@
 
 
 ''' 
-number = int(input('Введите число\n'))
-if number == 1:
-    print('один')
-elif number == 2:
-    print('Два')
-elif number == 3:
-    print('Три')
-elif number == 4:
-    print('Четыре')
-elif number == 5:
-    print('Пять')
-else:
-    print('Хуета')
+
+def number(number):
+    if number == 1:
+        return 'один'
+    elif number == 2:
+        return 'Два'
+    elif number == 3:
+        return 'Три'
+    elif number == 4:
+        return 'Четыре'
+    elif number == 5:
+        return 'Пять'
+    else:
+       return 'Хуета'

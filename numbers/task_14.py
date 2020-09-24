@@ -4,10 +4,8 @@
 
 ''' 
 
-
-number = int(input('Введите число \n'))
-fack = 1
-for i in range(1,number+1):
+def number(number):
+    fack = 1
+        for i in range(1,number+1):
     fack = fack * i
-print(fack)
-    
+return(fack)

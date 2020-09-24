@@ -13,14 +13,9 @@
 вывести полученные переменные 
 '''
 
-a = int(input('Введите первое число\n'))
-b = int(input('Введите второе число\n'))
-c = int(input('Введите третье число\n'))
-double_a = a * 2
-double_b = b * 2 
-double_c = c * 2 
-print('Удвоенное число равно' + ' ' + str(double_a) + ' ' + str(double_b) +  ' ' + str(double_c))
-
-
-
+def double_number(a, b, c):
+    double_a = a * 2
+    double_b = b * 2 
+    double_c = c * 2 
+return 'Удвоенное число равно' + ' ' + str(double_a) + ' ' + str(double_b) +  ' ' + str(double_c)
  

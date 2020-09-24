@@ -14,12 +14,20 @@
 вывести макс мин среднеарифметическое
 '''
 
-first_number = int(input('Введите 1 число\n'))
-second_number = int(input('Введите 2 число\n'))
-third_number = int(input('Введите 3 число\n'))
+
+def (first_number, second_number, third_number)
+    sum = (first_number + second_number + third_number)
 if first_number > second_number and first_number > third_number:
-    print('Максиальное число ' + str(first_number))
+    return('Максиальное число ' + str(first_number))
 if second_number > first_number and second_number > third_number:
-    print('Максиальное число ' + str(second_number))
-if third_number > second_number and third_number > first_number:
-    print('Максиальное число ' + str(third_number))
+    return('Максиальное число ' + str(second_number))
+if third_number > second_number and third_number > first_number: 
+    return('Максиальное число ' + str(third_number))
+if first_number < second_number and first_number < third_number:
+    return('Минимальное число ' + str(first_number))
+if second_number < first_number and second_number < third_number:
+    return('Минимальное число ' + str(second_number))
+if third_number < second_number and third_number < first_number:
+    return('Минимальное число ' + str(third_number))
+return('Среднеарифмитическое число равно  ' + str(int(sum/3)))
+
